@@ -1,0 +1,18 @@
+@import './reset.css';
+@import './fonts.css';
+@import './card.css';
+
+* {
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+
+body {
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: center; */
+  align-items: center;
+  min-height: 100vh;
+  background-color: lightcyan;
+}
